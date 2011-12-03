@@ -1,0 +1,11 @@
+--- arch/arm/configs/p1_android_rfs_eur_defconfig	2010-11-24 20:36:29.000000000 +0900
++++ arch/arm/configs/p1_android_rfs_eur_defconfig	2011-02-07 22:18:42.948305239 +0900
+@@ -363,7 +363,7 @@
+ CONFIG_PREEMPT_NONE=y
+ # CONFIG_PREEMPT_VOLUNTARY is not set
+ # CONFIG_PREEMPT is not set
+-CONFIG_HZ=256
++CONFIG_HZ=300
+ # CONFIG_THUMB2_KERNEL is not set
+ CONFIG_AEABI=y
+ CONFIG_OABI_COMPAT=y
